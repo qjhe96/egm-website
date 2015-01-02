@@ -1,0 +1,306 @@
+html, body{
+	background: url("file:///Users/qjhe/Documents/Coding/WebDev/Expreso Gran Muralla/assets/img/images/gallery/food13.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	border:0;
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+img.img_scaled{
+	width:75px;
+	height:75px;
+}
+
+#viewport{
+	position:relative;
+	min-height: 100%;
+}
+
+/* +++++++++++++++++++++++++++++++++
+
+	NAVIGATION MENU
+
+	+++++++++++++++++++++++++++++++++
+*/
+
+#nav{
+	position:relative;
+	top:0;
+	width:100%;
+	color:#000000;
+	height:40px;
+	padding-top:15px;
+	text-align:center;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/* Adds the transparent background */
+	background-color: rgba(210, 0, 0, 1);
+	color: rgba(1, 1, 1, 0.8);
+}
+
+#nav_container{
+	position: absolute;
+	left: 40%;
+}
+
+#nav_list{
+	float:left;
+	list-style-type: none;
+	margin-top:5px;
+}
+
+li.listbutton{
+	float:left;
+	padding-left: 25px;
+	margin-bottom: 20px;
+	text-align:center;
+	padding-right: 25px;
+}
+
+#logo{
+	position: absolute;
+	left:5%;
+	bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 20px;
+
+}
+
+#logo_link{
+	text-align:center;
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+	font-family: 'Lato', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 36px;
+}
+
+a.button{
+	font-family:'Lato', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+	display:block;
+	width:100px;
+	height:30px;
+}
+
+a.currentlyActive{
+	border-bottom: 3px solid white;
+}
+
+#nav a.button:hover {
+    color: #FFDE73;
+}
+
+
+/* +++++++++++++++++++++++++++++++
+
+	CONTENT
+
+	++++++++++++++++++++++++++++++
+
+*/
+
+#promo{
+	position: absolute;
+	top: 7.5%;
+	left: 26.5%;
+	width: 720px;
+	height: 420px;
+}
+
+#promo img{
+	width:720px;
+	height:420px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+}
+
+#menu_container{
+	position: relative;
+	background-color: white;
+	opacity:.875;
+	margin-top: 37.5%;
+	height: 100%;
+	width:100%;
+	padding-bottom: 60px;
+	overflow: auto;
+}
+
+#red_bar{
+	position: absolute;
+	top: 41.5%;
+	width:100%;
+	height: 50px;
+	background-color: #CC0000;
+}
+
+#menu_header{
+	position: absolute;
+	font-family: 'Lato', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	margin: 5%;
+	top: 0;
+	left: 42.5%;
+}
+
+div.menu_section{
+	position: relative;
+	width: 300px;
+	top: 25%;
+	margin-bottom: 5%;
+	margin-left: 17.5%;
+	float:left;
+}
+
+div.section_header{
+	position:relative;
+	text-align: center;
+	padding:5px;
+	left: 30px;
+	font-family: 'Arvo', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+div.section_content{
+	position: relative;
+	padding: 10px;
+	font-family: 'Arvo', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#beef{
+	clear:left;
+}
+
+#chicken{
+	clear:left;
+}
+
+#fish{
+	clear:left;
+}
+
+#vegetarian{
+	clear:left;
+}
+
+#lomein{
+	clear:left;
+}
+
+#special{
+	clear:left;
+}
+
+#combo{
+	clear:both;
+}
+
+table.section_table{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	table-layout: fixed;
+}
+
+tr.menu_item > td{
+	padding-bottom: 1em;
+	padding-left: 30px;
+}
+
+#combo_table td.menu_num{
+	width: 25px;
+}
+
+td.menu_num{
+	width: 10px;
+}
+
+td.menu_desc{
+	width: 200px;
+	text-align: left;
+}
+
+table.section_table{
+	width: 200px;
+}
+
+.vertical_line{
+	position:absolute;
+	top: 25%;
+	left: 50%;
+	width:1px;
+	background-color: black;
+	height: 4000px;
+	float:left;
+}
+
+#menu_footnotes{
+	position: absolute;
+	top: 4250px;
+	left: 300px;
+	font-family: 'Arvo', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+
+}
+
+/* +++++++++++++++++++++++
+
+ FOOTER
+
++++++++++++++++++++++++++++
+*/ 
+
+
+#footer {
+	position:absolute;
+	top:100%;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:40px;
+	background-color:black;
+	overflow: hidden;
+}
+
+#footer_list{
+	list-style-type: none;
+	float:left;
+}
+
+#footer_list li{
+	float:left;
+	color:white;
+	font-family: 'Lato', Helvetica, Arial, Verdana, sans-serif;
+	margin-left: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+#credits a{
+	color:white;
+	text-decoration: none;
+}
+
+#credits a:hover{
+	color:#A0A0A0;
+}
